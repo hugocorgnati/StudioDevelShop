@@ -1,0 +1,50 @@
+.productDetail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+.productDetail img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.productDetail img:hover {
+    opacity: 0.8;
+}
+
+.detail {
+    display: grid;
+    gap: 1em;
+    height: max-content;
+}
+
+.detailName {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.detailDescription {
+    font-size: 1em;
+
+}
+
+.detailCategory {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.detailPrice {
+    color: black;
+    font-weight: 600;
+    font-size: 1.8em;
+}
+
+.detailStock {
+    color: black;
+    font-weight: 600;
+    font-size: 1em;
+}

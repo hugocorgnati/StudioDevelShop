@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3em 0;
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.navbarLogo {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    height: auto;
+}
+
+.navbarNav {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1.3em;
+}
+
+.navbarLink {
+    font-size: 1em;
+    padding: 0;
+    cursor: pointer;
+    color: rgba(10, 14, 24, 0.7);
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbarLink:hover {
+    transform: scale(1.1);
+}
+
+.navbarLinkActive {
+    color: black
+}
+
+.navbarCartQty {
+    color: black;
+    font-weight: 700;
+}
+
+.headerButtons a {
+    text-decoration: none;
+    color: black;
+}

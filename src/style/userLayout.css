@@ -1,0 +1,21 @@
+.userLayout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+}
+
+.banner {
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    background: url("https://studiodevel.com/wp-content/uploads/2022/09/WhatsApp-Image-2022-08-22-at-3.53.48-PM.jpeg");
+    background-position: center;
+
+}
